@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-azure.html 
+keywords: limitations, ha, azure, pay-as-you-go, paygo, cloud solution provider, vm, flash cache 
+summary: Essas limitações conhecidas são específicas do Cloud Volumes ONTAP no Microsoft Azure. 
+---
+= Limitações conhecidas do Cloud Volumes ONTAP no Azure
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+As seguintes limitações conhecidas são específicas do Cloud Volumes ONTAP no Microsoft Azure.  Não deixe de revisar tambémlink:reference-limitations.html["Limitações para Cloud Volumes ONTAP em todos os provedores de nuvem"] .
+
+
+
+== Limitações com o uso de extensões de VM do Azure
+
+O Cloud Volumes ONTAP não oferece suporte a extensões de máquina virtual (VM) do Azure porque elas afetam as operações de gerenciamento do BlueXP . Durante a implantação, o BlueXP impede a instalação de qualquer extensão em suas VMs. Se as extensões já estiverem instaladas nas suas VMs Cloud Volumes ONTAP existentes, entre em contato com o Suporte do Microsoft Azure para removê-las. Para obter orientação, consulte o artigo da base de conhecimento (KB) https://kb.netapp.com/Cloud/Cloud_Volumes_ONTAP/Can_Azure_VM_Management_Extensions_be_installed_into_Cloud_Volume_ONTAP["As extensões de gerenciamento de VM do Azure podem ser instaladas no Cloud Volume ONTAP?"^]
+
+A partir de 14 de julho de 2025, a NetApp enviará e-mails e notificará você no BlueXP se extensões de VM forem detectadas em suas VMs do Cloud Volumes ONTAP .
+
+
+
+== Limitações do Flash Cache
+
+O Cloud Volumes ONTAP usa o armazenamento NVMe local em alguns tipos de VM como _Flash Cache_.  Observe esta limitação:
+
+* O reaquecimento do cache após uma reinicialização não é suportado.
+
+
+
+
+== Limitações com implantações de alta disponibilidade
+
+Pares de alta disponibilidade (HA) não são suportados em algumas regiões.
+
+https://bluexp.netapp.com/cloud-volumes-global-regions["Veja a lista de regiões do Azure com suporte"^] .
+
+
+
+== Limitações com implantações de HA em zonas de disponibilidade únicas
+
+A partir do Cloud Volumes ONTAP 9.15.1, você pode implantar instâncias de máquina virtual (VM) no modo HA em zonas de disponibilidade únicas (AZs) no Azure.  Para obter informações sobre os critérios que suportam esse recurso, consulte https://docs.netapp.com/us-en/cloud-volumes-ontap-9151-relnotes/reference-new.html#deploy-ha-pairs-in-single-availability-zones-on-azure["Implantar pares de HA em zonas de disponibilidade únicas no Azure"^] .
+
+Se a versão do Cloud Volumes ONTAP for anterior à 9.15.1 ou se qualquer uma dessas condições não for atendida, o modelo de implantação anterior que utiliza conjuntos de disponibilidade entrará em vigor.  Isso se aplica somente às configurações de HA.

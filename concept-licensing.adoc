@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-licensing.html 
+keywords: freemium, professional, essential, licensing, licenses, cloud volumes ontap charging, cloud volumes ontap licenses, cloud volumes ontap licensing, cvo licenses, cvo licensing, byol, bring your own license, paygo, pay as you go 
+summary: Várias opções de licenciamento estão disponíveis para o Cloud Volumes ONTAP.  Cada opção permite que você escolha uma configuração que atenda às suas necessidades. 
+---
+= Visão geral do licenciamento do Cloud Volumes ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Várias opções de licenciamento estão disponíveis para o Cloud Volumes ONTAP.  Cada opção permite que você escolha um modelo de consumo que atenda às suas necessidades.
+
+As seguintes opções de licenciamento estão disponíveis para novos clientes.
+
+Pacotes de licenciamento baseados em capacidade:: O licenciamento baseado em capacidade permite que você pague pelo Cloud Volumes ONTAP por TiB de capacidade. A licença está associada à sua conta NetApp e permite que você cobre vários sistemas pela licença, desde que haja capacidade suficiente disponível por meio da licença.
++
+--
+O licenciamento baseado em capacidade está disponível na forma de um _pacote_.  Ao implantar um sistema Cloud Volumes ONTAP , você pode escolher entre vários pacotes de licenciamento com base nas necessidades do seu negócio.
+
+--
+
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["Pacotes"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing-charging.html["Mais sobre licenças baseadas em capacidade"^]
+
+Assinatura Keystone Flex:: Um serviço baseado em assinatura com pagamento conforme o crescimento que oferece uma experiência de nuvem híbrida perfeita para aqueles que preferem modelos de consumo de OpEx ao CapEx inicial ou leasing.
++
+--
+A cobrança é baseada no tamanho da sua capacidade comprometida para um ou mais pares de Cloud Volumes ONTAP HA na sua assinatura Keystone Flex.
+
+--
+
+
+O modelo anterior de licenciamento por nó continua disponível para clientes existentes que já compraram uma licença ou que têm uma assinatura ativa no marketplace.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Saiba mais sobre essas opções de licenciamento"^]
