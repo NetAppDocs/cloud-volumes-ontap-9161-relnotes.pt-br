@@ -20,6 +20,22 @@ Recursos e melhorias adicionais também são introduzidos nas versões mais rece
 
 
 
+== 9.16.1 P7 (09 de outubro de 2025)
+
+O patch 9.16.1 P7 já pode ser implantado e atualizado para o Cloud Volumes ONTAP no Azure e no Google Cloud. No entanto, esta versão não está disponível para implantação e atualização na AWS. O NetApp Console solicitará que você atualize seus sistemas existentes para esta versão de patch.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P7["Veja a lista de bugs corrigidos no patch P7"^] (É necessário fazer login no site de suporte da NetApp ).
+
+
+
+== 9.16.1 P6 (09 de outubro de 2025)
+
+O patch 9.16.1 P6 já pode ser implantado e atualizado para o Cloud Volumes ONTAP no Azure e no Google Cloud. No entanto, esta versão não está disponível para implantação e atualização na AWS. O NetApp Console solicitará que você atualize seus sistemas existentes para esta versão de patch.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.16.1P6["Veja a lista de bugs corrigidos no patch P6"^] (É necessário fazer login no site de suporte da NetApp ).
+
+
+
 == 9.16.1 P5 (28 de julho de 2025)
 
 O patch 9.16.1 P5 já pode ser implantado e atualizado para o Cloud Volumes ONTAP no Azure e no Google Cloud. No entanto, esta versão não está disponível para implantação e atualização na AWS. O BlueXP solicitará que você atualize seus sistemas existentes para esta versão do patch.
@@ -28,7 +44,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
-== 9.16.1 P4 (8 de julho de 2025)
+== 9.16.1 P4 (08 de julho de 2025)
 
 O patch 9.16.1 P4 já pode ser implantado e atualizado para o Cloud Volumes ONTAP no Azure e no Google Cloud. No entanto, esta versão não está disponível para implantação e atualização na AWS. O BlueXP solicitará que você atualize seus sistemas existentes para esta versão do patch.
 
@@ -60,7 +76,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
-== 9.16.1 GA (6 de março de 2025)
+== 9.16.1 GA (06 de março de 2025)
 
 Agora você pode usar a versão de Disponibilidade Geral do Cloud Volumes ONTAP 9.16.1 para implantação e atualização no Azure e no Google Cloud. No entanto, esta versão não está disponível para implantação e atualização na AWS.
 
