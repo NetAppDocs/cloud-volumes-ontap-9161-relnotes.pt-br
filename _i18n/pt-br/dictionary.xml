@@ -873,4 +873,8 @@
   <block id="a3d80265a5f445fde1d382318e209365" category="paragraph">O patch Cloud Volumes ONTAP 9.16.1 P9 já está disponível para atualização para todos os provedores de nuvem. O Console solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P9</block>
   <block id="7f6e1fb823b042d6f89adc943de0068d" category="paragraph"><block ref="d4eee5025c7b384f4cdd08404339f7d4" category="inline-link-macro-rx"></block>(É necessário fazer login no site de suporte da NetApp ).</block>
+  <block id="fb4b20dc8f488aba5095fb5465d5b929" category="section-title">9.16.1 P10 (22 de dezembro de 2025)</block>
+  <block id="d951df9678da0683e70249f4aeb5ea9e" category="paragraph">O patch Cloud Volumes ONTAP 9.16.1 P10 já está disponível para atualização para todos os provedores de nuvem. O Console solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
+  <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P10</block>
+  <block id="60b93f7bd7cd61809b1080f294f03f00" category="paragraph"><block ref="02eca14e8eca47ec8802c1c6504665c3" category="inline-link-macro-rx"></block>(É necessário fazer login no site de suporte da NetApp ).</block>
 </blocks>
