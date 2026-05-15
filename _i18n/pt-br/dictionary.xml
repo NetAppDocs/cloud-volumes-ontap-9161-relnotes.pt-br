@@ -881,4 +881,8 @@
   <block id="c8fc4e02c37e3ba115f5b5151211d0a4" category="paragraph">O patch P11 do Cloud Volumes ONTAP 9.16.1 já está disponível para atualização para todos os provedores de nuvem. O Console solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P11</block>
   <block id="f78f637b367235893656515e0320b18e" category="paragraph"><block ref="67ad79ff8e6ea95deb4c519af6266a5d" category="inline-link-macro-rx"></block> (NetApp site de suporte, é necessário login).</block>
+  <block id="30e5cbc63be7afdc18b1785830b21949" category="section-title">9.16.1 P12 (14 de maio de 2026)</block>
+  <block id="7921842512546dcc2b6113d7636eb5b0" category="paragraph">O patch P12 do Cloud Volumes ONTAP 9.16.1 já está disponível para atualização para todos os provedores de nuvem. O Console solicitará que você atualize seus sistemas existentes para esta versão de patch.</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">Veja a lista de bugs corrigidos no patch P12</block>
+  <block id="3eb4c2a1aa053b1bc1ac0f0197a04e1f" category="paragraph"><block ref="e9182f1c0f87f3aabe0d9590748d2e3a" category="inline-link-macro-rx"></block> (NetApp site de suporte, é necessário login).</block>
 </blocks>
